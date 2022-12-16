@@ -284,7 +284,7 @@ module.exports = client => {
                         embeds.push(new Discord.MessageEmbed()
                             .setColor("BLURPLE")
                             .setTitle(`This is my Help Information!`)
-                            .setDescription(`Hello I am ${guild.me.user.username} and i am a easy 2 setup and use Modmail-bot!\n> A Modmail Bot is a Bot similar to a Ticket Bot which allows you to DM with The Ticket User instead of Using a Ticket! It's easier for them and i have an advance Ticket Logger too!\n\n**These are my Commands:**\n\n\`MaxDev#0930\` Coded me and here is the [Youtube Video](https://youtu.be/4oZb8-f1qYk) how he made me! [Github](https://github.com/Tomato6966/Multiguild-Modmail)`)
+                            .setDescription(`Hello I am ${guild.me.user.username} and i am a easy 2 setup and use Modmail-bot!\n> A Modmail Bot is a Bot similar to a Ticket Bot which allows you to DM with The Ticket User instead of Using a Ticket! It's easier for them and i have an advance Ticket Logger too!\n\n**These are my Commands:**\n\n\`MaxDev#0930\` Coded me and here is the [Youtube Video](https://youtu.be/4oZb8-f1qYk) how he made me! [Github](https://github.com/MaxGamingOfficalYT/Multi-Modmail/)`)
                             .addField("<:Discord:787321652345438228> **Support Server**", `> Join my [Support Server](https://dsc.gg/maxgaming-yt)`)
                             .setThumbnail(guild.me.user.displayAvatarURL())
                             .setAuthor(guild.name, guild.iconURL({dynamic: true})))
