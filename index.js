@@ -11,8 +11,8 @@ const client = new Discord.Client({
     failIfNotExists: false,
     presence: {
       activity: {
-        name: `Dm me for help | m!help`, 
-        type: "PLAYING", 
+        name: `Dm me for help | !help`, 
+        type: "playing", 
         url: "https://twitch.tv/#"
       },
       status: "online"
